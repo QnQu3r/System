@@ -5,6 +5,8 @@
  */
 package javaapplication4;
 
+import java.util.Scanner;
+
 /**
  *
  * @author student
@@ -15,7 +17,11 @@ public class JavaApplication4 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+      Scanner wej = new Scanner(System.in);
+      int a;
+      a = wej.nextInt();
+      
+        System.out.println("Wypisz"+" "+a);
     }
     
 }
