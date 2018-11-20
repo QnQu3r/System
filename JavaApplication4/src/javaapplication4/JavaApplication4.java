@@ -20,7 +20,7 @@ public class JavaApplication4 {
       Scanner wej = new Scanner(System.in);
       int a;
       a = wej.nextInt();
-      
+      int b; 
         System.out.println("Wypisz"+" "+a);
     }
     
